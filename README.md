@@ -21,7 +21,7 @@ A user style for easy Slack theming. [CC0](http://creativecommons.org/publicdoma
 
 6) Unpack the app.asar with the command: `npx asar extract app.asar app.asar.unpacked`
 
-7) Insert the below code at the end of in the unpacked file `ssb-interop.bundle.js` 
+7) Insert the below code at the end of in the unpacked file `main-preload-entry-point.bundle.js` 
 Note: It may look like mumbo-jumbo in the file, but it's just minified javascript - do not despair.
 
 8) Repack the asar file: `npx asar pack app.asar.unpacked app.asar`
